@@ -1,0 +1,96 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .nav__name {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    color: white;
+  }
+  
+  .nav__name img {
+    padding: 0 1rem;
+  }
+  
+  .nav__name h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .nav__networkSelector {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav__networkSelector select {
+    border: 2px solid white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.4em;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .nav__networkSelector select:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: #fff;
+  }
+  
+  .nav__balance {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 1rem;
+  }
+  
+  .nav__balance-box {
+    border: 2px solid white;
+    border-radius: 2rem;
+    height: 2.5rem;
+    margin: 0 1rem;
+    padding: 0 1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .nav__balance-box:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: #fff;
+  }
+  
+  select option {
+    color: black; /* Option text color for better readability */
+  }
+  
+  .nav__myBalance {
+    color: white;
+    margin-right: 1rem;
+  }
+  
+  .nav__myAccount {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .identicon {
+    margin-left: 0.5rem;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+  

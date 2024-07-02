@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #764ba2;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select,
+  textarea,
+  input[type="tel"] {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  select:focus,
+  textarea:focus,
+  input[type="tel"]:focus {
+    border-color: #667eea;
+  }
+  
+  select option {
+    color: #333;
+    background-color: #fff;
+  }
+  
+  input[type="submit"] {
+    padding: 12px 20px;
+    background-color: #667eea;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555eea;
+  }
+  
+  input[type="tel"]:invalid {
+    border-color: #e74c3c;
+  }
+  
+  input[type="tel"]:valid {
+    border-color: #2ecc71;
+  }
+  
+  h1:not(:first-child) {
+    color: #e74c3c;
+  }
+  
